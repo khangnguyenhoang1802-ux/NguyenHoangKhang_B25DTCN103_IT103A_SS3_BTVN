@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Form Đặt Mua Tài Liệu Lập Trình</h2>
+        <div>
+            <label for="choose">Chọn tài liệu:</label>
+            <select name="document" id="document">
+                <option value="html">Tài liệu môn HTML&CSS</option>
+                <option value="javascript">Tài liệu môn JavaScript</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="quantity">Số lượng:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+        </div>
+        <br>
+        <div>
+            <label for="note">Ghi chú:</label>
+            <textarea id="note" name="note" cols="20" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="address">Địa chỉ giao hàng</label>
+            <textarea id="address" name="address" cols="20" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Đặt mua</button>
+        </div>
+    </form>
+</body>
+</html>

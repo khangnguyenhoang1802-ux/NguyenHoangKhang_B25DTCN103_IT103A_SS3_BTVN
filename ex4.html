@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;">Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="Nam">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="Nữ">
+            <label for="female">Nữ</label>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="cccd">Số căn cước công dân:</label>
+            <input type="text" id="cccd" name="cccd">
+        </div>
+
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="issue_date">Ngày cấp:</label>
+            <input type="date" id="issue_date" name="issue_date">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="issue_place">Nơi cấp:</label>
+            <input type="text" id="issue_place" name="issue_place">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px; vertical-align:top;" for="addr1">Địa chỉ thường trú:</label>
+            <textarea id="addr1" name="addr1" rows="2" cols="30"></textarea>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px; vertical-align:top;" for="addr2">Địa chỉ tạm trú:</label>
+            <textarea id="addr2" name="addr2" rows="2" cols="30"></textarea>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;">Loại căn cước công dân:</label>
+            <input type="radio" id="cccd_new" name="cccd_type" value="new">
+            <label for="cccd_new">Căn cước công dân mới</label>
+            <input type="radio" id="cccd_old" name="cccd_type" value="old">
+            <label for="cccd_old">Căn cước công dân cũ</label>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="ethnic">Dân tộc:</label>
+            <input type="text" id="ethnic" name="ethnic">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="religion">Tôn giáo:</label>
+            <input type="text" id="religion" name="religion">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="nation">Quốc tịch:</label>
+            <input type="text" id="nation" name="nation" value="Việt Nam">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="parent_name">Họ tên cha/mẹ:</label>
+            <input type="text" id="parent_name" name="parent_name">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="parent_cccd">Số CMND/CCCD của cha/mẹ:</label>
+            <input type="text" id="parent_cccd" name="parent_cccd">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:200px;" for="city">Tỉnh/Thành phố:</label>
+            <select id="city" name="city">
+                <option>Chọn Tỉnh/Thành phố</option>
+                <option>Hà Nội</option>
+                <option>TP. Hồ Chí Minh</option>
+                <option>Đà Nẵng</option>
+                <option>Hải Phòng</option>
+                <option>Cần Thơ</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Gửi thông tin</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="fullname">Họ và tên: </label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="email">Email: </label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="dateOfBirth">Ngày sinh: </label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="gender">Giới tính:</label>
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="phone">Số điện thoại: </label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="major">Chuyên ngành: </label>
+            <input type="text" id="major" name="major">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="year">Năm nhập học: </label>
+            <input type="number" id="year" name="year">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="gpa">Điểm GPA: </label>
+            <input type="number" step="0.01" id="gpa" name="gpa">
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px; vertical-align: top;">Địa chỉ:</label>
+            <textarea rows="3" cols="25"></textarea>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="class">Lớp học: </label>
+            <select id="class" name="class">
+                <option>Lớp 1</option>
+                <option>Lớp 2</option>
+                <option>Lớp 3</option>
+            </select>
+        </div>
+        <div style="margin-bottom:8px;">
+            <label style="display:inline-block; width:100px;" for="reg">Ngày đăng ký học: </label>
+            <input type="datetime-local" id="reg" name="reg">
+        </div>
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
